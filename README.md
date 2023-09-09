@@ -31,7 +31,7 @@ python main.py --url bit.ly/3uujaSR
 
 Пример содержания файла .env:
 ```
-TOKEN=21dchbfsi74hjd5chdbendhjc78hftbskc3n4vgj78
+BITLY_TOKEN=21dchbfsi74hjd5chdbendhjc78hftbskc3n4vgj78
 ```
 Получить токен BITLINK можно на сайте [Bitly](https://app.bitly.com/Bn5n7bjzgfd/onboard/)
 
