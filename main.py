@@ -51,7 +51,7 @@ def main():
     args = parser.parse_args()
     parsed_url = urlparse(args.url)
     parsed_url = f'{parsed_url.netloc}{parsed_url.path}'
-    token = os.getenv("TOKEN")
+    token = os.getenv("BITLY_TOKEN")
     try:
         if is_bitlink(token, parsed_url):
             print(count_clicks(token, parsed_url))
